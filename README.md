@@ -6,4 +6,7 @@
 
 #### Link to videi in terminal
 [brain_even](https://asciinema.org/a/nWAnbzbyNl1jXS2oxveHYSzbk "asciinema video")
+
 [brain_calc](https://asciinema.org/a/GCgFMoINaWtqLYhA6555DNNo5 "asciinema video")
+
+[brain_gcd](https://asciinema.org/a/mLVmHmLHXygJov8hvk4MM7tUO "asciinema video")
