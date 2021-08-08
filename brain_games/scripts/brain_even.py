@@ -1,15 +1,12 @@
-#!/usr/local/bin/python3.9
+#!/usr/local/bin/ python3
 """Main even programm."""
-
-
-from brain_games.cli import welcome_user
-from brain_games.question import even_games
+from brain_games.games import even
+from brain_games.play_game import run_game
 
 
 def main():
-    """Make a user even game intreface."""
-    name = welcome_user()  # get username
-    even_games(name)  # ask question
+    """Run a user even game."""
+    run_game(even)
 
 
 if __name__ == '__main__':
