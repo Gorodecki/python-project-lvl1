@@ -12,4 +12,6 @@
 
 [brain_gcd](https://asciinema.org/a/mLVmHmLHXygJov8hvk4MM7tUO "asciinema video")
 
-[brain_progression](https://asciinema.org/a/ecWqyrptHU4UI2vRL8sTbRzkU "asciinema video")
+[brain_progression](https://asciinema.org/a/ecWqyrptHU4UI2vRL8sTbRzkU "asciinema video") 
+
+[brain_prime](https://asciinema.org/a/x2DgPjuEc1CGyqzynirGkZHb1 "asciinema video")
