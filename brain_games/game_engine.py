@@ -28,9 +28,8 @@ def run_game(game):
 
     print(game.GREETING)
 
-    count = 0  # number of correct answers to finish the game
-
-    for _ in len(ROUNDS_COUNT):
+    
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.generate_question_and_answer()
 
         print('Question: {0}'.format(question))
@@ -38,7 +37,6 @@ def run_game(game):
 
         if answer == correct_answer:
             print('Correct!')
-            count += 1
         else:
             print("'{0}' is wrong answer ;(.".format(answer), end=' ')
             print("Correct answer was '{0}'.".format(correct_answer))
