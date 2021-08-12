@@ -1,7 +1,7 @@
 """Question collection interface for brain-games."""
 from random import randint
 
-INFORMATION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GREETING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_prime(num: int) -> bool:
@@ -16,7 +16,7 @@ def check_prime(num: int) -> bool:
     return num > 1 and all(num % phi for phi in range(2, int(num**0.5) + 1))
 
 
-def generate_question_and_answer():
+def generate_question_and_answer() -> tuple:
     """Generate question and answer for game.
 
     Returns:

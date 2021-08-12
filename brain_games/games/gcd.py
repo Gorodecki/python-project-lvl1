@@ -1,7 +1,7 @@
 """Question collection interface for brain-games."""
 from random import randint
 
-INFORMATION = 'Find the greatest common divisor of given numbers.'
+GREETING = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(one: int, two: int) -> int:
@@ -19,7 +19,7 @@ def gcd(one: int, two: int) -> int:
     return one
 
 
-def generate_question_and_answer():
+def generate_question_and_answer() -> tuple:
     """Generate question and answer for game.
 
     Returns:

@@ -2,10 +2,10 @@
 from operator import add, mul, sub
 from random import choice, randint
 
-INFORMATION = 'What is the result of the expression?'
+GREETING = 'What is the result of the expression?'
 
 
-def generate_question_and_answer():
+def generate_question_and_answer() -> tuple:
     """Generate question and answer for game.
 
     Returns:

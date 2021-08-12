@@ -1,11 +1,11 @@
 """Question collection interface for brain-games."""
 from random import randint
 
-INFORMATION = 'What number is missing in the progression?'
+GREETING = 'What number is missing in the progression?'
 PROGRESSION_LENGHT = 10
 
 
-def generate_question_and_answer():
+def generate_question_and_answer() -> tuple:
     """Generate question and answer for game.
 
     Returns:

@@ -1,7 +1,7 @@
 """Question collection interface for brain-games."""
 from random import randint
 
-INFORMATION = 'Answer "yes" if number even otherwise answer "no".'
+GREETING = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def even_or_odd(number: int) -> bool:
@@ -13,10 +13,10 @@ def even_or_odd(number: int) -> bool:
     Returns:
         bool: True if even; False if odd.
     """
-    return bool(number % 2 == 0)
+    return number % 2 == 0
 
 
-def generate_question_and_answer():
+def generate_question_and_answer() -> tuple:
     """Generate question and answer for game.
 
     Returns:
