@@ -28,7 +28,6 @@ def run_game(game):
 
     print(game.GREETING)
 
-    
     for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.generate_question_and_answer()
 
