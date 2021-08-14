@@ -16,7 +16,7 @@ def even_or_odd(number: int) -> bool:
     return number % 2 == 0
 
 
-def generate_question_and_answer() -> tuple:
+def generate_question_and_answer() -> tuple[str, str]:
     """Generate question and answer for game.
 
     Returns:

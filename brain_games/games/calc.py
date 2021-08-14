@@ -5,7 +5,7 @@ from random import choice, randint
 GREETING = 'What is the result of the expression?'
 
 
-def generate_question_and_answer() -> tuple:
+def generate_question_and_answer() -> tuple[str, str]:
     """Generate question and answer for game.
 
     Returns:

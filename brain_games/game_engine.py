@@ -15,7 +15,7 @@ def welcome_user() -> str:
     return name
 
 
-def run_game(game):
+def run_game(game=None):
     """Logical for all games.
 
     Args:
@@ -23,7 +23,7 @@ def run_game(game):
     """
     user_name = welcome_user()
     # check for game is available
-    if game == 'test':
+    if game == None:
         return
 
     print(game.GREETING)

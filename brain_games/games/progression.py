@@ -5,7 +5,7 @@ GREETING = 'What number is missing in the progression?'
 PROGRESSION_LENGHT = 10
 
 
-def generate_question_and_answer() -> tuple:
+def generate_question_and_answer() -> tuple[str, str]:
     """Generate question and answer for game.
 
     Returns:

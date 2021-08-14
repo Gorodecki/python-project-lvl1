@@ -19,7 +19,7 @@ def gcd(one: int, two: int) -> int:
     return one
 
 
-def generate_question_and_answer() -> tuple:
+def generate_question_and_answer() -> tuple[str, str]:
     """Generate question and answer for game.
 
     Returns:

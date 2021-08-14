@@ -16,7 +16,7 @@ def check_prime(num: int) -> bool:
     return num > 1 and all(num % phi for phi in range(2, int(num**0.5) + 1))
 
 
-def generate_question_and_answer() -> tuple:
+def generate_question_and_answer() -> tuple[str, str]:
     """Generate question and answer for game.
 
     Returns:
