@@ -23,7 +23,7 @@ def run_game(game=None):
     """
     user_name = welcome_user()
     # check for game is available
-    if game == None:
+    if game is None:
         return
 
     print(game.GREETING)
