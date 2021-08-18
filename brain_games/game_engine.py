@@ -13,7 +13,7 @@ def run(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(user_name))
-    print(game.GREETING)  # noqa: WPS213
+    print(game.GREETING)
 
     for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.generate_question_and_answer()
