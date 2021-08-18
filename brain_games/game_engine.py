@@ -4,29 +4,16 @@ import prompt
 ROUNDS_COUNT = 3  # number of correct answers to finish the game
 
 
-def welcome_user() -> str:
-    """Question username.
-
-    Returns:
-        name (str): username
-    """
-    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
-    print('Hello, {0}!'.format(name))
-    return name
-
-
-def run_game(game=None):
+def run(game):
     """Logical for all games.
 
     Args:
         game (str): type of games
     """
-    user_name = welcome_user()
-    # check for game is available
-    if game is None:
-        return
-
-    print(game.GREETING)
+    print('Welcome to the Brain Games!')
+    user_name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(user_name))
+    print(game.GREETING)  # noqa: WPS213
 
     for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.generate_question_and_answer()

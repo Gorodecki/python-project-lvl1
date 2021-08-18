@@ -4,7 +4,7 @@ from random import randint
 GREETING = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def even_or_odd(number: int) -> bool:
+def is_even(number: int) -> bool:
     """Check number even or odd.
 
     Parameters:
@@ -26,6 +26,6 @@ def generate_question_and_answer() -> tuple[str, str]:
     number = randint(1, 1000)
 
     question = str(number)
-    correct_answer = 'yes' if even_or_odd(number) else 'no'
+    correct_answer = 'yes' if is_even(number) else 'no'
 
     return question, correct_answer

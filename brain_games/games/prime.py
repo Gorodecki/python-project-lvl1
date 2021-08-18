@@ -4,7 +4,7 @@ from random import randint
 GREETING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def check_prime(num: int) -> bool:
+def is_prime(num: int) -> bool:
     """Check number prime.
 
     Parameters:
@@ -26,6 +26,6 @@ def generate_question_and_answer() -> tuple[str, str]:
     number = randint(1, 1000)
 
     question = str(number)
-    correct_answer = 'yes' if check_prime(number) else 'no'
+    correct_answer = 'yes' if is_prime(number) else 'no'
 
     return question, correct_answer
